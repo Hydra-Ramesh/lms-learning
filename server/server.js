@@ -46,12 +46,8 @@ app.get('/send-email', (req, res) => {
   res.send('Call Send Email Controller')
 })
 
-app.get('/delete-account', (req, res) => {
-  res.send('Call Delete Account Controller')
-})
-
-app.get('/delete-profile', (req, res) => {
-  res.send('Call Delete Profile Controller')
+app.get('/verify-email', (req, res) => {
+  res.send('Call Verify Email Controller')
 })
 
 app.get('/update-username', (req, res) => {
